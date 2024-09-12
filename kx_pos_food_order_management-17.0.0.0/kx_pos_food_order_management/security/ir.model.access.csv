@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access.kitchen.screen,access.kitchen.screen,model_kitchen_screen,kx_pos_food_order_management.kitchen_cook,1,1,1,1

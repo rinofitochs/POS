@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.module.category" id="pos_food_order_management">
+        <field name="name">Pos Kitchen Display</field>
+        <field name="description">Kitchen Food order permissions</field>
+        <field name="sequence">20</field>
+    </record>
+
+    <record id="kitchen_cook" model="res.groups">
+        <field name="name">Kitchen Chef</field>
+        <field name="category_id"
+               ref="kx_pos_food_order_management.pos_food_order_management"/>
+    </record>
+</odoo>

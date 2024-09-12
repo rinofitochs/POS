@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Kitchen Display menu -->
+    <menuitem id="pos_kitchen_screen_menu_root"
+              name="Pos kitchen Display"
+              parent="point_of_sale.menu_point_root"
+              sequence="10"/>
+
+    <menuitem id="pos_kitchen_screen_menu_action"
+              name="Pos kitchen Display"
+              parent="pos_kitchen_screen_menu_root"
+              action="kitchen_display_action"
+              sequence="10"/>
+</odoo>
